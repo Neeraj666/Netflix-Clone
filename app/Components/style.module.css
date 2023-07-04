@@ -1,0 +1,51 @@
+.main{
+    background-color: #000;
+    /* background-color: #700; */
+}
+.container{ 
+    max-width: 1300px;
+    margin: auto;
+    border: 1px solid red; 
+}
+.container h1{ 
+    margin: 0; 
+    line-height: 4rem;
+}
+
+.container ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.container ul li{
+    
+}
+.container ul li:not(:first-child){
+    margin-left: 2rem;
+}
+.container ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 3rem;
+    transition: 0.5s linear;
+}
+.container ul li a:hover{
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+.container button{
+    background: none;
+    border: none;
+    color: white;
+    line-height: 4rem;
+}
+
+.ul li a{
+    color : #fff;
+}
+
+.para{
+    color : #fff;
+    margin: 3rem;
+}
