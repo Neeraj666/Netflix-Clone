@@ -1,0 +1,17 @@
+.main{
+    /* background-color: rgb(20, 20, 20) */
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    border: 1px solid red;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading a {
+    line-height: 5rem;
+    color: red;
+    text-decoration: none;
+}
